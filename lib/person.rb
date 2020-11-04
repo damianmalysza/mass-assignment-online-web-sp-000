@@ -1,5 +1,5 @@
 class Person
-  #your code here
+  attr_accessor
 
   def initialize(hash)
     hash.each {|k,v| self.send(("#{k}="),v}
